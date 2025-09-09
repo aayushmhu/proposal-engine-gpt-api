@@ -21,6 +21,12 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
+### Activate Virtual Env
+source .venv/bin/activate
 
 ### Run
 uvicorn app.main:app --reload --port 8080
+
+
+### View API Docs
+http://127.0.0.1:8080/docs
